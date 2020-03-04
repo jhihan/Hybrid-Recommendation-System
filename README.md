@@ -1,7 +1,12 @@
 # Hybrid-Recommendation-System
 Build up a hybrid recommender system based on MovieLens database using content-based filtering and collaborative filtering algorithms
 ## Movie Recommendation System Development
-A recommender system, or a recommendation system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. Recommendation systems can produce produce the prediction in Content-based filtering or Collaborative filtering. In this project, a hybrid approach is used.
+A recommender system, or a recommendation system is a subclass of information filtering system that seeks to predict the "rating" or "preference" a user would give to an item. Recommendation systems can produce produce the prediction in Content-based filtering or Collaborative filtering. In this project, a hybrid approach is used to build up a recommendation system in the Colab notebook.
+### Setup
+```Shell
+pip install fuzzywuzzy
+pip install surprise
+```
 ### Datasets
 The datasets used in this project are from [MovieLens Datasets](https://grouplens.org/datasets/movielens/latest/). There are smaller datasets which contain 100,000 ratings and 3,600 tag applications applied to 9,000 movies by 600 users. There are also full datasets which contains 27,000,000 ratings and 1,100,000 tag applications applied to 58,000 movies by 280,000 users. Here the smaller datasets are used as the practice.
 ### Models
