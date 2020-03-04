@@ -6,5 +6,5 @@ The datasets used in this project are from [MovieLens Datasets](https://grouplen
 ### Models
 This recommendation system is built up with the Hybrid model using collaborative filtering and content-based filtering:
 * Collaborative filtering:
-   Singular Value Decomposition-Surprise
-* Content-based filtering
+   Singular Value Decomposition (SVD) matrix factorization algorithm from the Surprise package is used.
+* Content-based filtering: the cosine similarity between vectors in tf-idf Vector-Space model is used
