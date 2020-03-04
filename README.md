@@ -11,7 +11,8 @@ This recommendation system is built up with the Hybrid model using content-based
    Singular Value Decomposition (SVD) matrix factorization algorithm from the Surprise package is used.
 ### Recommendation
 With a given user Id and a favorate movie name, the two recommendation lists from the content-based filtering and collaborative filtering are shown. The result from the content-based filtering recommends us the movies which are similar to the input favorate movie according to the genres in the datasets. The result from the collaborative filtering recommends us the movies which other users who are similar to us also like.
-# Next Step
+## Outlook
 * Impliment the recommendation system in Pyspark framewrke in order to perform large-scale data processing and machine learning algorithms.
-# References
+* Productionize existing code.
+## References
 https://en.wikipedia.org/wiki/Recommender_system
