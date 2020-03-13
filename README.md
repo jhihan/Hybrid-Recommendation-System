@@ -14,6 +14,7 @@ This recommendation system is built up with the Hybrid model using content-based
 * Content-based filtering: the cosine similarity between vectors in tf-idf Vector-Space model is used
 * Collaborative filtering:
    Singular Value Decomposition (SVD) matrix factorization algorithm from the Surprise package is used.
+   Alternating Least Square (ALS) matrix factorization algorithm in the PySpark framwork is used. (in Recommendation_system_pyspark.ipynb)
 ### Recommendation
 With a given user Id and a favorate movie name, the two recommendation lists from the content-based filtering and collaborative filtering are shown. The result from the content-based filtering recommends us the movies which are similar to the input favorate movie according to the genres in the datasets. The result from the collaborative filtering recommends us the movies which other users who are similar to us also like.
 ## Outlook
